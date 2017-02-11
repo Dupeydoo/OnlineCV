@@ -1,0 +1,36 @@
+/**************************************************
+Mixins
+***************************************************/
+/**************************************************
+Top-level
+***************************************************/
+body {
+  font-family: helvetica, sans-serif;
+  color: #8c8da4;
+  background-color: #eaeaea;
+  font-size: 14px;
+  padding: 40px; }
+
+/**************************************************
+Wrap styles
+***************************************************/
+.container.wrap {
+  margin: auto;
+  position: relative;
+  -webkit-box-shadow: 1px 3px 5px #dfdfdf;
+  -moz-box-shadow: 1px 3px 5px #dfdfdf;
+  box-shadow: 1px 3px 5px #dfdfdf; }
+
+/**************************************************
+Sidebar styles
+***************************************************/
+.wrap-sidebar {
+  background-color: #6abcff;
+  position: absolute;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  color: #fff;
+  min-height: 700px; }
+
+/*# sourceMappingURL=sass-styles.css.map */
