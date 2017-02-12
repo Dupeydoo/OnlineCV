@@ -80,7 +80,12 @@ Sidebar styles
 	width: 240px;
 	height: 100%;
 	color: $white;
-	min-height: 700px;
+	min-height: 900px;
+}
+
+.wrap-sidebar h2 {
+	font-size: $medium-text;
+	font-weight: bold;
 }
 
 .sidebar-elements {
@@ -112,8 +117,21 @@ Sidebar styles
 
 .wrap-sidebar #skills {
 	@extend .sidebar-elements;
+	padding-bottom: 5px;
 }
 
-.wrap-sidebar .skill-levels {
-
+.wrap-sidebar #skills .skill-levels {
+	margin-bottom: 10px;
 }
+
+.wrap-sidebar #contact {
+	@extend .sidebar-elements;
+	padding-top: 0;
+}
+
+.wrap-sidebar #contact .contact-methods p i {
+	margin-right: 5px;
+}
+
+
+

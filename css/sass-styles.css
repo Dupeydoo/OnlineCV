@@ -43,9 +43,13 @@ Sidebar styles
   width: 240px;
   height: 100%;
   color: #fff;
-  min-height: 700px; }
+  min-height: 900px; }
 
-.sidebar-elements, .wrap-sidebar #profile, .wrap-sidebar #skills {
+.wrap-sidebar h2 {
+  font-size: 18px;
+  font-weight: bold; }
+
+.sidebar-elements, .wrap-sidebar #profile, .wrap-sidebar #skills, .wrap-sidebar #contact {
   padding: 30px;
   color: #fff; }
 
@@ -68,5 +72,17 @@ Sidebar styles
   font-size: 14px;
   font-weight: 500;
   color: #d9d9d9; }
+
+.wrap-sidebar #skills {
+  padding-bottom: 5px; }
+
+.wrap-sidebar #skills .skill-levels {
+  margin-bottom: 10px; }
+
+.wrap-sidebar #contact {
+  padding-top: 0; }
+
+.wrap-sidebar #contact .contact-methods p i {
+  margin-right: 5px; }
 
 /*# sourceMappingURL=sass-styles.css.map */
