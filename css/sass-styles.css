@@ -17,9 +17,21 @@ Wrap styles
 .container.wrap {
   margin: auto;
   position: relative;
-  -webkit-box-shadow: 1px 3px 5px #dfdfdf;
-  -moz-box-shadow: 1px 3px 5px #dfdfdf;
-  box-shadow: 1px 3px 5px #dfdfdf; }
+  max-width: 960px;
+  -webkit-box-shadow: 3px 3px 5px #dfdfdf;
+  -moz-box-shadow: 3px 3px 5px #dfdfdf;
+  box-shadow: 3px 3px 5px #dfdfdf; }
+
+/**************************************************
+Main Section
+***************************************************/
+.wrap-main {
+  background-color: #fff;
+  padding: 60px;
+  padding-right: 100px; }
+
+.wrap-main section {
+  margin-bottom: 5%; }
 
 /**************************************************
 Sidebar styles
@@ -28,9 +40,33 @@ Sidebar styles
   background-color: #6abcff;
   position: absolute;
   left: 0;
-  width: 20%;
+  width: 240px;
   height: 100%;
   color: #fff;
   min-height: 700px; }
+
+.sidebar-elements, .wrap-sidebar #profile, .wrap-sidebar #skills {
+  padding: 30px;
+  color: #fff; }
+
+.wrap-sidebar #profile {
+  background-color: #1a9cff;
+  text-align: center; }
+
+.wrap-sidebar #profile img {
+  margin-bottom: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; }
+
+.wrap-sidebar #profile h1 {
+  font-size: 22px;
+  font-weight: 900; }
+
+.wrap-sidebar #profile h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #d9d9d9; }
 
 /*# sourceMappingURL=sass-styles.css.map */
