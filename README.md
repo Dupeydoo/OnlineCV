@@ -1,2 +1,2 @@
 # OnlineCV
-James Du Plessis' online CV
+An Online CV Template
