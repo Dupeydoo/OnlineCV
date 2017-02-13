@@ -2,6 +2,59 @@
 Mixins
 ***************************************************/
 /**************************************************
+Sidebar styles
+***************************************************/
+.wrap-sidebar {
+  background-color: #6abcff;
+  position: absolute;
+  left: 0;
+  width: 240px;
+  height: 100%;
+  color: #fff;
+  min-height: 1100px; }
+
+.wrap-sidebar h2 {
+  font-size: 18px;
+  font-weight: bold; }
+
+.sidebar-elements, .wrap-sidebar #profile, .wrap-sidebar #skills, .wrap-sidebar #contact, .wrap-sidebar #education {
+  padding: 5px 30px 5px;
+  color: #fff; }
+
+.wrap-sidebar #profile {
+  background-color: #1a9cff;
+  text-align: center;
+  padding-top: 30px; }
+
+.wrap-sidebar #profile img {
+  margin-bottom: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; }
+
+.wrap-sidebar #profile h1 {
+  font-size: 22px;
+  font-weight: 900; }
+
+.wrap-sidebar #profile h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #d9d9d9; }
+
+.wrap-sidebar #skills .skill-levels {
+  margin-bottom: 10px; }
+
+.wrap-sidebar #contact .contact-methods p i {
+  margin-right: 5px; }
+
+.wrap-sidebar #education .educations p {
+  color: #d9d9d9; }
+
+.wrap-sidebar #education .educations strong {
+  color: #fff; }
+
+/**************************************************
 Top-level
 ***************************************************/
 body {
@@ -32,57 +85,5 @@ Main Section
 
 .wrap-main section {
   margin-bottom: 5%; }
-
-/**************************************************
-Sidebar styles
-***************************************************/
-.wrap-sidebar {
-  background-color: #6abcff;
-  position: absolute;
-  left: 0;
-  width: 240px;
-  height: 100%;
-  color: #fff;
-  min-height: 900px; }
-
-.wrap-sidebar h2 {
-  font-size: 18px;
-  font-weight: bold; }
-
-.sidebar-elements, .wrap-sidebar #profile, .wrap-sidebar #skills, .wrap-sidebar #contact {
-  padding: 30px;
-  color: #fff; }
-
-.wrap-sidebar #profile {
-  background-color: #1a9cff;
-  text-align: center; }
-
-.wrap-sidebar #profile img {
-  margin-bottom: 10px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%; }
-
-.wrap-sidebar #profile h1 {
-  font-size: 22px;
-  font-weight: 900; }
-
-.wrap-sidebar #profile h3 {
-  font-size: 14px;
-  font-weight: 500;
-  color: #d9d9d9; }
-
-.wrap-sidebar #skills {
-  padding-bottom: 5px; }
-
-.wrap-sidebar #skills .skill-levels {
-  margin-bottom: 10px; }
-
-.wrap-sidebar #contact {
-  padding-top: 0; }
-
-.wrap-sidebar #contact .contact-methods p i {
-  margin-right: 5px; }
 
 /*# sourceMappingURL=sass-styles.css.map */

@@ -1,0 +1,109 @@
+$main-colour: #6abcff;
+$light-colour: #cce9ff;
+$dark-colour: #1a9cff;
+$white: #fff;
+$light-grey: #d9d9d9;
+$font: helvetica, sans-serif;
+$small-text: 14px;
+$medium-text: 18px;
+$large-text: 22px;
+$bs: 3px 3px 5px rgba(223, 223, 223, 1);
+
+/**************************************************
+Mixins
+***************************************************/
+
+@mixin box-shadow($box-shadow) {
+	-webkit-box-shadow: $box-shadow;
+	-moz-box-shadow: $box-shadow;
+	box-shadow: $box-shadow;
+}
+
+@mixin border-radius($border-radius) {
+	-webkit-border-radius: $border-radius;
+	-moz-border-radius: $border-radius;
+	-ms-border-radius: $border-radius;
+	border-radius: $border-radius;
+}
+
+@mixin blur($blur) {
+	-webkit-filter: blur($blur);
+	-moz-filter: blur($blur);
+	-o-filter: blur($blur);
+	-ms-filter: blur($blur);
+}
+
+/**************************************************
+Sidebar styles
+***************************************************/
+
+.wrap-sidebar {
+	background-color: $main-colour;
+	position: absolute;
+	left: 0;
+	width: 240px;
+	height: 100%;
+	color: $white;
+	min-height: 1100px;
+}
+
+.wrap-sidebar h2 {
+	font-size: $medium-text;
+	font-weight: bold;
+}
+
+.sidebar-elements {
+	padding: 5px 30px 5px;
+	color: $white;
+}
+
+.wrap-sidebar #profile {
+	@extend .sidebar-elements;
+	background-color: $dark-colour;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.wrap-sidebar #profile img {
+	margin-bottom: 10px;
+	@include border-radius(50%);
+}
+
+.wrap-sidebar #profile h1 {
+	font-size: $large-text;
+	font-weight: 900;
+}
+
+.wrap-sidebar #profile h3 {
+	font-size: $small-text;
+	font-weight: 500;
+	color: $light-grey;
+}
+
+.wrap-sidebar #skills {
+	@extend .sidebar-elements;
+}
+
+.wrap-sidebar #skills .skill-levels {
+	margin-bottom: 10px;
+}
+
+.wrap-sidebar #contact {
+	@extend .sidebar-elements;
+}
+
+.wrap-sidebar #contact .contact-methods p i {
+	margin-right: 5px;
+}
+
+.wrap-sidebar #education {
+	@extend .sidebar-elements;
+}
+
+.wrap-sidebar #education .educations p {
+	color: $light-grey;
+}
+
+.wrap-sidebar #education .educations strong {
+	color: $white;
+}
