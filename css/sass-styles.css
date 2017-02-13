@@ -92,8 +92,17 @@ Main Section
   padding: 30px;
   padding-left: 250px; }
 
-.wrap-main section {
-  margin-bottom: 5%; }
+.wrap-main .main-section {
+  margin-bottom: 10%; }
+
+.wrap-main .main-section h4 {
+  color: #1a9cff;
+  font-weight: bold;
+  font-size: 22px; }
+
+.wrap-main .main-section p {
+  color: #a6a6a6;
+  font-size: 14px; }
 
 .wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child {
   margin-right: 10px;
@@ -101,6 +110,8 @@ Main Section
 
 .wrap-main #menu-button {
   display: inline-block;
-  margin-left: 50px; }
+  margin-left: 50px;
+  position: relative;
+  bottom: 10px; }
 
 /*# sourceMappingURL=sass-styles.css.map */
