@@ -44,7 +44,7 @@ Sidebar styles
 	width: 240px;
 	height: 100%;
 	color: $white;
-	min-height: 1100px;
+	min-height: 1050px;
 }
 
 .wrap-sidebar h2 {
@@ -90,6 +90,18 @@ Sidebar styles
 
 .wrap-sidebar #contact {
 	@extend .sidebar-elements;
+}
+
+.wrap-sidebar #contact .contact-methods a {
+	color: $white;
+}
+
+.wrap-sidebar #contact .contact-methods a:hover, .wrap-sidebar #contact .contact-methods a:visited {
+	text-decoration: none;
+}
+
+.wrap-sidebar #contact .contact-methods:hover {
+	background-color: $dark-colour;
 }
 
 .wrap-sidebar #contact .contact-methods p i {

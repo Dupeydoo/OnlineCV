@@ -11,7 +11,7 @@ Sidebar styles
   width: 240px;
   height: 100%;
   color: #fff;
-  min-height: 1100px; }
+  min-height: 1050px; }
 
 .wrap-sidebar h2 {
   font-size: 18px;
@@ -44,6 +44,15 @@ Sidebar styles
 
 .wrap-sidebar #skills .skill-levels {
   margin-bottom: 10px; }
+
+.wrap-sidebar #contact .contact-methods a {
+  color: #fff; }
+
+.wrap-sidebar #contact .contact-methods a:hover, .wrap-sidebar #contact .contact-methods a:visited {
+  text-decoration: none; }
+
+.wrap-sidebar #contact .contact-methods:hover {
+  background-color: #1a9cff; }
 
 .wrap-sidebar #contact .contact-methods p i {
   margin-right: 5px; }
@@ -80,10 +89,18 @@ Main Section
 ***************************************************/
 .wrap-main {
   background-color: #fff;
-  padding: 60px;
-  padding-right: 100px; }
+  padding: 30px;
+  padding-left: 250px; }
 
 .wrap-main section {
   margin-bottom: 5%; }
+
+.wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child {
+  margin-right: 10px;
+  border-radius: 200px; }
+
+.wrap-main #menu-button {
+  display: inline-block;
+  margin-left: 50px; }
 
 /*# sourceMappingURL=sass-styles.css.map */

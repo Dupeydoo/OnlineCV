@@ -30,12 +30,22 @@ Main Section
 
 .wrap-main {
 	background-color: $white;
-	padding: 60px;
-	padding-right: 100px;
+	padding: 30px;
+	padding-left: 250px;
 }
 
 .wrap-main section {
 	margin-bottom: 5%;
+}
+
+.wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child {
+	margin-right: 10px;
+	border-radius: 200px;
+}
+
+.wrap-main #menu-button {
+	display: inline-block;
+	margin-left: 50px;
 }
 
 
