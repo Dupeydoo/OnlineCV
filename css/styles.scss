@@ -6,10 +6,10 @@
 Top-level
 ***************************************************/
 
-body {
+html body {
 	font-family: $font;
 	color: #8c8da4;
-	background-color: #eaeaea;
+	background-color: #e6e6e6;
 	font-size: $small-text;
 	padding: 40px;
 }
@@ -22,6 +22,7 @@ Wrap styles
 	margin: auto;
 	position: relative;
 	max-width: 960px;
+	background-color: $white;
 	@include box-shadow($bs);
 }
 

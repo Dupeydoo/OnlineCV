@@ -89,10 +89,10 @@ Animations
 /**************************************************
 Top-level
 ***************************************************/
-body {
+html body {
   font-family: helvetica, sans-serif;
   color: #8c8da4;
-  background-color: #eaeaea;
+  background-color: #e6e6e6;
   font-size: 14px;
   padding: 40px; }
 
@@ -103,9 +103,10 @@ Wrap styles
   margin: auto;
   position: relative;
   max-width: 960px;
-  -webkit-box-shadow: 3px 3px 5px #dfdfdf;
-  -moz-box-shadow: 3px 3px 5px #dfdfdf;
-  box-shadow: 3px 3px 5px #dfdfdf; }
+  background-color: #fff;
+  -webkit-box-shadow: 3px 3px 5px #b3b3b3;
+  -moz-box-shadow: 3px 3px 5px #b3b3b3;
+  box-shadow: 3px 3px 5px #b3b3b3; }
 
 /**************************************************
 Main Section
