@@ -155,6 +155,9 @@ Main Section
   display: inline-block;
   margin-left: 15%; }
 
+.wrap-main #interests div .interest i {
+  color: #6abcff; }
+
 .wrap-main #interests div:first-child {
   margin-left: 0; }
 
