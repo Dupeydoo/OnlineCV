@@ -67,7 +67,7 @@ Sidebar styles
   animation-name: spin;
   animation-duration: 0.5s;
   animation-timing-function: linear;
-  animation-iteration-count: 20; }
+  animation-iteration-count: 10; }
 
 .wrap-sidebar #profile h1 {
   font-size: 22px;
@@ -164,6 +164,9 @@ Main Section
 .wrap-main #experience .experiences .info h5 {
   color: #808080;
   font-size: 18px; }
+
+.wrap-main #interests #interests-container {
+  margin-left: 0; }
 
 .wrap-main #interests div .interest {
   display: inline-block;
