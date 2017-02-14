@@ -98,7 +98,8 @@ Main Section
 .wrap-main .main-section h4 {
   color: #1a9cff;
   font-weight: bold;
-  font-size: 22px; }
+  font-size: 22px;
+  margin-bottom: 20px; }
 
 .wrap-main .main-section p {
   color: #a6a6a6;
