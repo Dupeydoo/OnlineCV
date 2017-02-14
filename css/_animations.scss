@@ -1,5 +1,7 @@
 $button-tilt-right: rotate(5deg);
 $button-tilt-left: rotate(-5deg);
+$origin: rotate(0deg);
+$full: rotate(360deg);
 
 
 /**************************************************
@@ -21,4 +23,9 @@ Animations
 	50% {@include rotater(0);}
 	75% {@include rotater($button-tilt-right);}
 	100% {@include rotater(0);}
+}
+
+@keyframes spin {
+	from {@include rotater($origin);}
+	to {@include rotater($full);}
 }

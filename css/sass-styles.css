@@ -2,6 +2,38 @@
 Mixins
 ***************************************************/
 /**************************************************
+Animations
+***************************************************/
+@keyframes bt-n-tilt {
+  25% {
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+  50% {
+    -ms-transform: 0;
+    -webkit-transform: 0;
+    transform: 0; }
+  75% {
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg); }
+  100% {
+    -ms-transform: 0;
+    -webkit-transform: 0;
+    transform: 0; } }
+@keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+/**************************************************
+Mixins
+***************************************************/
+/**************************************************
 Sidebar styles
 ***************************************************/
 .wrap-sidebar {
@@ -31,7 +63,11 @@ Sidebar styles
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%; }
+  border-radius: 50%;
+  animation-name: spin;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 20; }
 
 .wrap-sidebar #profile h1 {
   font-size: 22px;
@@ -63,29 +99,6 @@ Sidebar styles
 .wrap-sidebar #education .educations strong {
   color: #fff; }
 
-/**************************************************
-Mixins
-***************************************************/
-/**************************************************
-Animations
-***************************************************/
-@keyframes bt-n-tilt {
-  25% {
-    -ms-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-    transform: rotate(-5deg); }
-  50% {
-    -ms-transform: 0;
-    -webkit-transform: 0;
-    transform: 0; }
-  75% {
-    -ms-transform: rotate(5deg);
-    -webkit-transform: rotate(5deg);
-    transform: rotate(5deg); }
-  100% {
-    -ms-transform: 0;
-    -webkit-transform: 0;
-    transform: 0; } }
 /**************************************************
 Top-level
 ***************************************************/

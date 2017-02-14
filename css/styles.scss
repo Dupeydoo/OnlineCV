@@ -1,5 +1,5 @@
-@import 'sidebar-styles';
 @import 'animations';
+@import 'sidebar-styles';
 //importing with sass does not create an additional HTTP request so can split the sidebar code and mixins off and import.
 
 /**************************************************
