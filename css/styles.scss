@@ -1,4 +1,5 @@
 @import 'sidebar-styles';
+@import 'animations';
 //importing with sass does not create an additional HTTP request so can split the sidebar code and mixins off and import.
 
 /**************************************************
@@ -42,7 +43,7 @@ Main Section
 	color: $dark-colour;
 	font-weight: bold;
 	font-size: $large-text;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .wrap-main .main-section p {
@@ -53,6 +54,13 @@ Main Section
 .wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child {
 	margin-right: 10px;
 	border-radius: 200px;
+}
+
+.wrap-main .button-group a {
+	animation-name: bt-n-tilt;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 4;
 }
 
 .wrap-main #menu-button {
@@ -71,6 +79,14 @@ Main Section
 	font-size: $medium-text
 }
 
+.wrap-main #interests div .interest {
+	display: inline-block;
+	margin-left: 15%;
+}
+
+.wrap-main #interests div:first-child {
+	margin-left: 0;
+}
 
 
 

@@ -64,6 +64,29 @@ Sidebar styles
   color: #fff; }
 
 /**************************************************
+Mixins
+***************************************************/
+/**************************************************
+Animations
+***************************************************/
+@keyframes bt-n-tilt {
+  25% {
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+  50% {
+    -ms-transform: 0;
+    -webkit-transform: 0;
+    transform: 0; }
+  75% {
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg); }
+  100% {
+    -ms-transform: 0;
+    -webkit-transform: 0;
+    transform: 0; } }
+/**************************************************
 Top-level
 ***************************************************/
 body {
@@ -99,7 +122,7 @@ Main Section
   color: #1a9cff;
   font-weight: bold;
   font-size: 22px;
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
 
 .wrap-main .main-section p {
   color: #a6a6a6;
@@ -108,6 +131,12 @@ Main Section
 .wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child {
   margin-right: 10px;
   border-radius: 200px; }
+
+.wrap-main .button-group a {
+  animation-name: bt-n-tilt;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 4; }
 
 .wrap-main #menu-button {
   display: inline-block;
@@ -121,5 +150,12 @@ Main Section
 .wrap-main #experience .experiences .info h5 {
   color: #808080;
   font-size: 18px; }
+
+.wrap-main #interests div .interest {
+  display: inline-block;
+  margin-left: 15%; }
+
+.wrap-main #interests div:first-child {
+  margin-left: 0; }
 
 /*# sourceMappingURL=sass-styles.css.map */

@@ -1,0 +1,24 @@
+$button-tilt-right: rotate(5deg);
+$button-tilt-left: rotate(-5deg);
+
+
+/**************************************************
+Mixins
+***************************************************/
+
+@mixin rotater($rotation) {
+	-ms-transform: $rotation;
+	-webkit-transform: $rotation;
+	transform: $rotation;
+}
+
+/**************************************************
+Animations
+***************************************************/
+
+@keyframes bt-n-tilt {
+	25% {@include rotater($button-tilt-left);}
+	50% {@include rotater(0);}
+	75% {@include rotater($button-tilt-right);}
+	100% {@include rotater(0);}
+}
