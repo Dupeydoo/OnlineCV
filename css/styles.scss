@@ -142,12 +142,13 @@ Media Queries
 	.container.wrap #scroller {
 		right: 50px;
 		bottom: 30px;
-		height: 50px;
+		width: 75px;
+		height: 75px;
 		@include border-radius(50%);
 	}
 
 	.container.wrap #scroller i {
-		margin-top: 10%;
+		margin-top: 20%;
 	}
 }
 
