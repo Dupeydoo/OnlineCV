@@ -66,7 +66,7 @@ Sidebar styles
 
 .wrap-sidebar #profile img {
 	margin-bottom: 10px;
-	@include border-radius(50%);
+	@include border-radius(25%);
 	animation-name: spin;
 	animation-duration: 0.5s;
 	animation-timing-function: linear;
@@ -83,6 +83,7 @@ Sidebar styles
 
 .wrap-sidebar #contact {
 	@extend .sidebar-elements;
+	background-color: $dark-colour;
 }
 
 .wrap-sidebar #contact .contact-methods a {
@@ -94,7 +95,7 @@ Sidebar styles
 }
 
 .wrap-sidebar #contact .contact-methods:hover {
-	background-color: $dark-colour;
+	background-color: $main-colour;
 }
 
 .wrap-sidebar #contact .contact-methods p i {
@@ -117,10 +118,18 @@ Sidebar styles
 Media Queries
 ***************************************************/
 
-/*@media screen and (max-width: 552px) {
+@media screen and (max-width: 552px) {
 
 	.wrap-sidebar {
 		position: static;
 		width: inherit;
 	}
-}*/
+
+	body .wrap-main {
+		padding-left: 30px;
+	}
+
+	body .container {
+		padding: 0;
+	}
+}

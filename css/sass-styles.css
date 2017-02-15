@@ -60,10 +60,10 @@ Sidebar styles
 
 .wrap-sidebar #profile img {
   margin-bottom: 10px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -ms-border-radius: 25%;
+  border-radius: 25%;
   animation-name: spin;
   animation-duration: 0.5s;
   animation-timing-function: linear;
@@ -72,6 +72,9 @@ Sidebar styles
 .wrap-sidebar #skills .skill-levels {
   margin-bottom: 10px; }
 
+.wrap-sidebar #contact {
+  background-color: #1a9cff; }
+
 .wrap-sidebar #contact .contact-methods a {
   color: #fff; }
 
@@ -79,7 +82,7 @@ Sidebar styles
   text-decoration: none; }
 
 .wrap-sidebar #contact .contact-methods:hover {
-  background-color: #1a9cff; }
+  background-color: #6abcff; }
 
 .wrap-sidebar #contact .contact-methods p i {
   margin-right: 5px; }
@@ -93,13 +96,16 @@ Sidebar styles
 /**************************************************
 Media Queries
 ***************************************************/
-/*@media screen and (max-width: 552px) {
+@media screen and (max-width: 552px) {
+  .wrap-sidebar {
+    position: static;
+    width: inherit; }
 
-	.wrap-sidebar {
-		position: static;
-		width: inherit;
-	}
-}*/
+  body .wrap-main {
+    padding-left: 30px; }
+
+  body .container {
+    padding: 0; } }
 /**************************************************
 Top-level
 ***************************************************/
