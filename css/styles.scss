@@ -27,6 +27,7 @@ Wrap styles
 }
 
 .container.wrap #scroller {
+	display: none;
 	background-color: $dark-colour;
 	position: fixed;
 	right: 0;

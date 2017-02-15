@@ -37,6 +37,15 @@ function scroll(scrollTo){
 	return false;
 }
 
+$(document).scroll(function() {
+	if($(window).scrollTop() === 0) {
+		$('.container.wrap #scroller').fadeOut();
+	}
+
+	else {
+		$('.container.wrap #scroller').fadeIn();
+	}
+})
 
 ////////////////Responsive code////////////////
 
