@@ -73,16 +73,15 @@ Sidebar styles
   margin-bottom: 10px; }
 
 .wrap-sidebar #contact {
-  background-color: #1a9cff; }
+  background-color: #1a9cff;
+  margin-right: 0;
+  margin-left: 0; }
+
+.wrap-sidebar .contact-methods {
+  padding-left: 0; }
 
 .wrap-sidebar #contact .contact-methods a {
   color: #fff; }
-
-.wrap-sidebar #contact .contact-methods a:hover, .wrap-sidebar #contact .contact-methods a:visited {
-  text-decoration: none; }
-
-.wrap-sidebar #contact .contact-methods:hover {
-  background-color: #6abcff; }
 
 .wrap-sidebar #contact .contact-methods p i {
   margin-right: 5px; }

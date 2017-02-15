@@ -84,18 +84,16 @@ Sidebar styles
 .wrap-sidebar #contact {
 	@extend .sidebar-elements;
 	background-color: $dark-colour;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.wrap-sidebar .contact-methods {
+	padding-left: 0;
 }
 
 .wrap-sidebar #contact .contact-methods a {
 	color: $white;
-}
-
-.wrap-sidebar #contact .contact-methods a:hover, .wrap-sidebar #contact .contact-methods a:visited {
-	text-decoration: none;
-}
-
-.wrap-sidebar #contact .contact-methods:hover {
-	background-color: $main-colour;
 }
 
 .wrap-sidebar #contact .contact-methods p i {
