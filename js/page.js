@@ -71,3 +71,19 @@ function changeButton(width){
 		$('.wrap-main .main-section #menu-button .button-dropdown button').removeClass('button-square').addClass('button-large')
 	}
 }
+
+////////////////Animation on contact icons////////////////
+
+/*
+	On mouseenter shake
+*/
+$('.wrap-sidebar #contact .contact-methods p i').mouseenter(function() {
+	$(this).addClass('animated shake');
+})
+
+/*
+	On mouseleave cease the shake
+*/
+$('.wrap-sidebar #contact .contact-methods p i').mouseleave(function() {
+	$(this).removeClass('animated shake');
+})
