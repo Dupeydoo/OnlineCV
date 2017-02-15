@@ -73,17 +73,6 @@ Sidebar styles
 	animation-iteration-count: 10;
 }
 
-.wrap-sidebar #profile h1 {
-	font-size: $large-text;
-	font-weight: 900;
-}
-
-.wrap-sidebar #profile h3 {
-	font-size: $small-text;
-	font-weight: 500;
-	color: $light-grey;
-}
-
 .wrap-sidebar #skills {
 	@extend .sidebar-elements;
 }
@@ -123,3 +112,15 @@ Sidebar styles
 .wrap-sidebar #education .educations strong {
 	color: $white;
 }
+
+/**************************************************
+Media Queries
+***************************************************/
+
+/*@media screen and (max-width: 552px) {
+
+	.wrap-sidebar {
+		position: static;
+		width: inherit;
+	}
+}*/

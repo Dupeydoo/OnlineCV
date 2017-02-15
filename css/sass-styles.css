@@ -69,15 +69,6 @@ Sidebar styles
   animation-timing-function: linear;
   animation-iteration-count: 10; }
 
-.wrap-sidebar #profile h1 {
-  font-size: 22px;
-  font-weight: 900; }
-
-.wrap-sidebar #profile h3 {
-  font-size: 14px;
-  font-weight: 500;
-  color: #d9d9d9; }
-
 .wrap-sidebar #skills .skill-levels {
   margin-bottom: 10px; }
 
@@ -99,6 +90,16 @@ Sidebar styles
 .wrap-sidebar #education .educations strong {
   color: #fff; }
 
+/**************************************************
+Media Queries
+***************************************************/
+/*@media screen and (max-width: 552px) {
+
+	.wrap-sidebar {
+		position: static;
+		width: inherit;
+	}
+}*/
 /**************************************************
 Top-level
 ***************************************************/
@@ -158,6 +159,15 @@ Main Section
   position: relative;
   bottom: 10px; }
 
+.wrap-main #summary h1 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #1a9cff;
+  margin-bottom: 30px; }
+
+.wrap-main #summary h1 i {
+  vertical-align: middle; }
+
 .wrap-main #experience .experiences {
   margin-bottom: 20px; }
 
@@ -191,5 +201,11 @@ Media Queries
 @media screen and (max-width: 757px) {
   .wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child {
     margin-bottom: 25px; } }
+@media screen and (max-width: 615px) {
+  .wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child {
+    margin-right: 10px; }
+
+  .wrap-main #menu-button {
+    bottom: 38px; } }
 
 /*# sourceMappingURL=sass-styles.css.map */

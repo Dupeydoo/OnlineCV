@@ -71,6 +71,17 @@ Main Section
 	bottom: 10px;
 }
 
+.wrap-main #summary h1 {
+	font-size: $large-text + 6px;
+	font-weight: 900;
+	color: $dark-colour;
+	margin-bottom: 30px;
+}
+
+.wrap-main #summary h1 i {
+	vertical-align: middle;
+}
+
 .wrap-main #experience .experiences {
 	margin-bottom: 20px;
 }
@@ -120,4 +131,16 @@ Media Queries
 	}
 
 }
+
+@media screen and (max-width: 615px) {
+
+	.wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child  {
+		margin-right: 10px;
+	}
+
+	.wrap-main #menu-button {
+		bottom: 38px;
+	}
+}
+
 

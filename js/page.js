@@ -33,3 +33,20 @@ function scroll(scrollTo){
 	}
 	return false;
 }
+
+///Responsive code
+
+/*
+	Use the window resize event to see if the width is less than 600, if so add classes to change the buttons.
+*/
+$(window).on('resize', function() {
+	if($(window).width() < 600) {
+		$('.wrap-main .main-section .button-group a').removeClass('button-pill').addClass('button-square');
+		$('.wrap-main .main-section #menu-button .button-dropdown button').removeClass('button-large').addClass('button-square')
+	}
+
+	else {
+		$('.wrap-main .main-section .button-group a').removeClass('button-square').addClass('button-pill');
+		$('.wrap-main .main-section #menu-button .button-dropdown button').removeClass('button-square').addClass('button-large')
+	}
+})
