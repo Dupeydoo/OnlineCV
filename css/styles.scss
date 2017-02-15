@@ -97,6 +97,27 @@ Main Section
 	margin-left: 0;
 }
 
+/**************************************************
+Media Queries
+***************************************************/
 
+@media screen and (max-width: 992px) {
+    
+	.wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child  {
+		margin: 0;
+	}
 
+	.wrap-main #menu-button {
+		margin: 10px 0px 0px;
+		bottom: 0;
+	}
+}
+
+@media screen and (max-width: 757px) {
+
+	.wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child  {
+		margin-bottom: 25px;
+	}
+
+}
 
