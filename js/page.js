@@ -42,10 +42,15 @@ function scroll(scrollTo){
 
 
 /*
-	Needs to be checked if page is reloaded for responsive buttons.
+	Needs to be checked if page is reloaded for responsive buttons. Snippet for slow top scroll.
 */
 $(document).ready(function() {
 	changeButton(600);
+
+	$("a[href='#']").click(function() {
+        $('html, body').animate({scrollTop:0}, 'slow');
+        return false;
+    });
 })
 
 /*
