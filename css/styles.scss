@@ -138,6 +138,17 @@ Media Queries
 		margin: 10px 0px 0px;
 		bottom: 0;
 	}
+
+	.container.wrap #scroller {
+		right: 50px;
+		bottom: 30px;
+		height: 50px;
+		@include border-radius(50%);
+	}
+
+	.container.wrap #scroller i {
+		margin-top: 10%;
+	}
 }
 
 @media screen and (max-width: 757px) {

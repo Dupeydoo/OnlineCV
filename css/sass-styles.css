@@ -219,7 +219,19 @@ Media Queries
 
   .wrap-main #menu-button {
     margin: 10px 0px 0px;
-    bottom: 0; } }
+    bottom: 0; }
+
+  .container.wrap #scroller {
+    right: 50px;
+    bottom: 30px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+
+  .container.wrap #scroller i {
+    margin-top: 10%; } }
 @media screen and (max-width: 757px) {
   .wrap-main .button-group .button:first-child, .wrap-main .button-group .button:last-child {
     margin-bottom: 25px; } }
