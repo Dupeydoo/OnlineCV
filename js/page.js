@@ -20,8 +20,10 @@ A responsive CV template made using a variety of front-end technologies.
 
 **/
 
-////////////////Smooth Scrolling////////////////
 
+/**************************************************
+Smooth Scrolling
+***************************************************/
 
 /*
 	Binds the smooth scroll to the click event. When the user clicks a link which uses the # to reference
@@ -45,7 +47,7 @@ $("a[href*='#']:not([href='#'])").click(function() {
 })
 
 /*
-	Actually performs the smooth scroll through an animation setting the page scroll.
+	Actually performs the smooth scroll through an animation setting the current page top.
 
 	@param: the target to scroll to
 	@return: false if scrollTo does not have a length
@@ -59,6 +61,10 @@ function scroll(scrollTo){
 	return false;
 }
 
+/*
+	On the scroll event, check if user is at the top of the screen. If so fade out the scroller.
+	If not fade it in.
+*/
 $(document).scroll(function() {
 	if($(window).scrollTop() === 0) {
 		$('.container.wrap #scroller').fadeOut();
@@ -69,7 +75,10 @@ $(document).scroll(function() {
 	}
 })
 
-////////////////Responsive code////////////////
+
+/**************************************************
+Responsive Code
+***************************************************/
 
 
 /*
@@ -108,7 +117,10 @@ function changeButton(width){
 	}
 }
 
-////////////////Animation on contact icons////////////////
+
+/**************************************************
+Animation on contact icons
+***************************************************/
 
 /*
 	On mouseenter shake
