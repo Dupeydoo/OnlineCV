@@ -13,7 +13,7 @@ git clone https://github.com/Dupeydoo/OnlineCV.git
 ```
 
 # Requirements
-To run the project one will need Sass. It can be installed by first downloading Ruby for the respective Operating System from [here](https://www.ruby-lang.org/en/downloads/) and then running `gem install sass`. Once sass is installed run the command:
+To develop on the project one will need Sass. It can be installed by first downloading Ruby for the respective Operating System from [here](https://www.ruby-lang.org/en/downloads/) and then running `gem install sass`. Once sass is installed run the command:
 
 ```
 sass --watch styles.scss:sass-styles.css
